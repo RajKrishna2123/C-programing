@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main()
 {	
-	printf("name:- raj krishna \nsap id:-1000015049 \nsection:-f");
+	printf("name:- raj krishna \nsap id:-1000015049 \nsection:-f\n");
 	int arr[100] = { 0 };
 	int i, x, y, z = 10;
 	for (i=0;i<10;i++)

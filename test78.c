@@ -6,4 +6,4 @@ int main(){
     int f;
     f= strlen(x);
     printf("\n %d",f);
-}
+} 

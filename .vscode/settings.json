@@ -1,5 +1,8 @@
 {
     "files.associations": {
-        "STAR.C": "cpp"
+        "STAR.C": "cpp",
+        "IMPACT_OF_DECREAMENT_OPERATOR_IN_C.C": "cpp",
+        "CIRCULAR_QUEUE.C": "cpp",
+        "CIRCULAR_QUEUEU.C": "cpp"
     }
 }

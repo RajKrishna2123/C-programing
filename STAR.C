@@ -16,15 +16,15 @@ void main()
     int nterms = 10,i;
     if (nterms <= 0)
     {
-        print("Plese enter a positive integer")
+        printf("Plese enter a positive integer")
     }
     else
     {
-        print("Fibonacci sequence:");
+        printf("Fibonacci sequence:");
     
         for (i=0;i=nterms;i++)
         {
-            print(recur_fibo(i))
+            printf(recur_fibo(i))
         }
        
 

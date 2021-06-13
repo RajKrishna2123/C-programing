@@ -1,15 +1,41 @@
-#include<stdio.h>
-#include<conio.h>
+#include <conio.h>
+ 
+int search(int *a,int n,int key)
+{ 
+int i;
+    for(i=0; i<n; i++)
+    {
+        if(a[i]==key)
+        {
+             return 1;		 
+        }
+ 
+    }
+    
+return 0;          
+      
+ }
+ 
+ 
+  
 int main()
 {
-    int x,y;
-    float z;
-    printf("Name :- Raj Krishna \nbatch:-c8 \nsap id :- 1000015049 \n");
-    printf("enter total selling price of 15 items :- ");
-    scanf("\n %d",&x);
-    printf("enter the profit earned :-");
-    scanf("\n %d",&y);
-    z=(x-y)/15;
-    printf("cost price is  %f",z);
-
+    int a[10000],i,n,key;
+   
+    printf("Enter size of the  array : ");
+    scanf("%d", &n);
+    printf("Enter elements in array : ");
+    for(i=0; i<n; i++)
+    {
+        scanf("%d",&a[i]);
+    }
+     printf("Enter the key : ");
+    scanf("%d", &key);
+    
+     if(search(a,n,key))
+     printf("element found ");
+     else
+     printf("element not found ");
+     
+    
 }
